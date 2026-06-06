@@ -1,0 +1,262 @@
+[ {
+  "baseItem" : {
+    "id" : "_QKNNUGZ8EeWm5YvsrIoYzQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "DQTechnical",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DataQuality",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DemoRoutines",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "DqStringHandling",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "GetRandomPhoneNum",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "MDM",
+    "version" : "Latest",
+    "type" : "routine"
+  }, {
+    "id" : "SQLike",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_XRvscBvzEfGK7Lac1idfIQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_1GMSgB05EfGb_qXtBCEg5w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_9aqJ8CqpEfGh_91P3Dx-xQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_QwZbEBy-EfGVEfsBc_3Pbw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_SUE3gBzCEfG1MJYFQz_loQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_SrF3ICqpEfGh_91P3Dx-xQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_VxReEB05EfGb_qXtBCEg5w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_hB3eAB04EfGb_qXtBCEg5w",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_mB864BzDEfG-UoeeWQFadA",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_1GMSgB05EfGb_qXtBCEg5w - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_9aqJ8CqpEfGh_91P3Dx-xQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_QwZbEBy-EfGVEfsBc_3Pbw - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_SUE3gBzCEfG1MJYFQz_loQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_SrF3ICqpEfGh_91P3Dx-xQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_VxReEB05EfGb_qXtBCEg5w - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_hB3eAB04EfGb_qXtBCEg5w - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - depenses22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - depenses23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - export22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - export23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - local22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - local23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - salaires22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - salaires23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_mB864BzDEfG-UoeeWQFadA - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_bUXb0CFuEfGFdKLuyklPuw",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_annee",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_departement",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_depenses22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_depenses23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_export22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_export23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_local22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_local23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_pays",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_salaires22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - dim_salaires23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - fact_depenses",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - fact_export",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - fact_local",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_R25mYCFvEfGFdKLuyklPuw - fact_salaires",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - annee",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - departement",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - depenses22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - depenses23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - export22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - export23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - local22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - local23",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - pays",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - salaires22",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_l8KdABv0EfGK7Lac1idfIQ - salaires23",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+} ]

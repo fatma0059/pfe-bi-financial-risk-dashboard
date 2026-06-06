@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_1GMSgR05EfGb_qXtBCEg5w" name="depenses2023" dataPackage="_1GMSgh05EfGb_qXtBCEg5w" Server="Localhost 127.0.0.1" FilePath="C:/Users/Fatma/Desktop/pfe/nettoye2023.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Dépenses" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Dépenses:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_1GMSgh05EfGb_qXtBCEg5w" name="default" dataManager="_1GMSgR05EfGb_qXtBCEg5w">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_1GMSgx05EfGb_qXtBCEg5w" id="_l3t9MB05EfGb_qXtBCEg5w" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1GMShB05EfGb_qXtBCEg5w" label="N" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1GMShR05EfGb_qXtBCEg5w" label="DATE" length="-1" talendType="id_Date" pattern="&quot;EEE MMM dd HH:mm:ss zzz yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1GMShh05EfGb_qXtBCEg5w" label="DEPARTEMENT" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1GMShx05EfGb_qXtBCEg5w" label="TYPE_DE_DEPENSES" length="24" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1GMSiB05EfGb_qXtBCEg5w" label="FOURNISSEUR" length="22" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1GMSiR05EfGb_qXtBCEg5w" label="HT" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1GMSih05EfGb_qXtBCEg5w" label="TVA" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1GMSix05EfGb_qXtBCEg5w" label="TTC" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_1GMSjB05EfGb_qXtBCEg5w" label="REGLEMENT" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

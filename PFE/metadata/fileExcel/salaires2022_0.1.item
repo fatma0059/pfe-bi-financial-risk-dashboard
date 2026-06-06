@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_SrHFQCqpEfGh_91P3Dx-xQ" name="salaires2022" dataPackage="_SrITYCqpEfGh_91P3Dx-xQ" Server="Localhost 127.0.0.1" FilePath="C:/Users/Fatma/Desktop/pfe/nettoye2022.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Salaires" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Salaires:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_SrITYCqpEfGh_91P3Dx-xQ" name="default" dataManager="_SrHFQCqpEfGh_91P3Dx-xQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_SrITYSqpEfGh_91P3Dx-xQ" id="_BgdXICqpEfGh_91P3Dx-xQ" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SrITYiqpEfGh_91P3Dx-xQ" label="SALARIE" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SrITYyqpEfGh_91P3Dx-xQ" label="MOIS" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SrITZCqpEfGh_91P3Dx-xQ" label="DEPARTEMENT" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SrITZSqpEfGh_91P3Dx-xQ" label="SALAIRE_NET" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SrITZiqpEfGh_91P3Dx-xQ" label="CNSS" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SrITZyqpEfGh_91P3Dx-xQ" label="FISCAL" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SrITaCqpEfGh_91P3Dx-xQ" label="TICKET_RESTO" length="3" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SrITaSqpEfGh_91P3Dx-xQ" label="COUT_TOTAL" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_SrITaiqpEfGh_91P3Dx-xQ" label="banque" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

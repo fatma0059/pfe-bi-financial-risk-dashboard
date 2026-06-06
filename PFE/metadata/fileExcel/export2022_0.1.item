@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_Qw5xYBy-EfGVEfsBc_3Pbw" name="export2022" dataPackage="_Qw5xYRy-EfGVEfsBc_3Pbw" Server="Localhost 127.0.0.1" FilePath="C:/Users/Fatma/Desktop/pfe/nettoye2022.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Export" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" sheetList="Export:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_Qw5xYRy-EfGVEfsBc_3Pbw" name="default" dataManager="_Qw5xYBy-EfGVEfsBc_3Pbw">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_Qw5xYhy-EfGVEfsBc_3Pbw" id="_8B_HwBy8EfGVEfsBc_3Pbw" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xYxy-EfGVEfsBc_3Pbw" label="N" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xZBy-EfGVEfsBc_3Pbw" label="DATE" length="-1" talendType="id_Date" pattern="&quot;EEE MMM dd HH:mm:ss zzz yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xZRy-EfGVEfsBc_3Pbw" label="PAYS" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xZhy-EfGVEfsBc_3Pbw" label="Type" length="17" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xZxy-EfGVEfsBc_3Pbw" label="Nom_du_client" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xaBy-EfGVEfsBc_3Pbw" label="departement" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xaRy-EfGVEfsBc_3Pbw" label="CA" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xahy-EfGVEfsBc_3Pbw" label="tx_conv" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xaxy-EfGVEfsBc_3Pbw" label="CA_TND" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xbBy-EfGVEfsBc_3Pbw" label="Recouvrement" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xbRy-EfGVEfsBc_3Pbw" label="Restant" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xbhy-EfGVEfsBc_3Pbw" label="Perte_de_change" length="-1" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Qw5xbxy-EfGVEfsBc_3Pbw" label="Banque" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
