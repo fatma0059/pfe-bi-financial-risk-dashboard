@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard - Bee Coders</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;600&display=swap" rel="stylesheet">
+    <style>
+        * { 
+            margin: 0; 
+            padding: 0; 
+            box-sizing: border-box; 
+            font-family: 'Inter', sans-serif; 
+        }
+        
+        body { 
+            background: #0f2027; 
+            color: white;
+            height: 100vh;
+            overflow: hidden; 
+        }
+
+      
+        .navbar{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center;
+            padding: 15px 40px; 
+            background: #1c2b36; 
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+        }
+
+       
+        .logo-container{
+            display: flex; 
+            align-items: center; 
+            gap: 10px; 
+            cursor: pointer; 
+            transition: transform 0.3s, filter 0.3s;
+        }
+        .logo-container:hover{
+            transform: scale(1.1);
+            filter: drop-shadow(0 0 8px #ffcc00);
+        }
+        .logo-container img{ 
+            width: 35px; 
+            height: 35px; 
+            object-fit: contain; 
+        }
+        .logo-container span{ 
+            font-size: 18px; 
+            font-weight: 600; 
+            color: #ffcc00; 
+        }
+
+       
+        .menu { 
+            display: flex; 
+            gap: 20px; 
+            font-weight: 500; 
+        }
+        .menu a {
+            color: white; 
+            text-decoration: none; 
+            padding: 6px 10px; 
+            border-radius: 6px; 
+            transition: 0.3s;
+        }
+        .menu a:hover { 
+            background: rgba(255,204,0,0.2); 
+            color: #ffcc00; 
+        }
+
+        .logout{ 
+            background: #ffcc00; 
+            border: none; 
+            padding: 8px 15px; 
+            border-radius: 6px; 
+            cursor: pointer; 
+            font-weight: 500;
+            color: #1c2b36;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .logout:hover{ 
+            background: #e6b800; 
+        }
+
+        
+        .main-content {
+            height: 100vh;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .title { 
+            position: fixed;
+            top: 70px; 
+            left: 0;
+            right: 0;
+            padding: 10px 40px; 
+            font-size: 18px; 
+            font-weight: 500;
+            background: #0f2027;
+            z-index: 999;
+            color: #ffcc00;
+        }
+
+       
+        .dashboard-container{ 
+            position: fixed;
+            top: 105px; 
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            padding: 0;
+            margin: 0;
+        }
+
+        iframe{
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+
+    
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="logo bee.jpg" alt="Bee Coders Logo">
+            <span>Bee Coders</span>
+        </div>
+
+        <div class="menu">
+            <a href="accueil.html">Accueil</a>
+            <a href="login.html" class="logout">Logout</a>
+        </div>
+    </div>
+
+  
+    <div class="title"> Dashboard d'analyse financière 2022-2023 et étude des risques</div>
+
+  
+    <div class="dashboard-container">
+         <iframe 
+         title="pfe dashboard" width="1140" height="541.25" src="https://app.powerbi.com/view?r=eyJrIjoiMjk4YjA2MjQtZjk4MS00MTZmLWIxMDEtNjk2MjM0Y2I2NjRlIiwidCI6ImRiZDY2NjRkLTRlYjktNDZlYi05OWQ4LTVjNDNiYTE1M2M2MSIsImMiOjl9" frameborder="0" 
+         allowFullScreen="true">
+        </iframe>
+
+</body>
+</html>
